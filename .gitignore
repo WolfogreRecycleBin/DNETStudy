@@ -1,0 +1,4 @@
+# for Visual Studio
+*.sdf
+*.opensdf
+Debug/
