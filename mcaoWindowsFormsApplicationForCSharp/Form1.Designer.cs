@@ -171,28 +171,28 @@ namespace mcaoWindowsFormsApplicationForCSharp
             // 定时图片ToolStripMenuItem
             // 
             this.定时图片ToolStripMenuItem.Name = "定时图片ToolStripMenuItem";
-            this.定时图片ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.定时图片ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.定时图片ToolStripMenuItem.Text = "图形图像";
             this.定时图片ToolStripMenuItem.Click += new System.EventHandler(this.定时图片ToolStripMenuItem_Click);
             // 
             // 猜猜我在哪儿ToolStripMenuItem
             // 
             this.猜猜我在哪儿ToolStripMenuItem.Name = "猜猜我在哪儿ToolStripMenuItem";
-            this.猜猜我在哪儿ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.猜猜我在哪儿ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.猜猜我在哪儿ToolStripMenuItem.Text = "猜猜我在哪儿";
             this.猜猜我在哪儿ToolStripMenuItem.Click += new System.EventHandler(this.猜猜我在哪儿ToolStripMenuItem_Click);
             // 
             // 控件属性设置ToolStripMenuItem
             // 
             this.控件属性设置ToolStripMenuItem.Name = "控件属性设置ToolStripMenuItem";
-            this.控件属性设置ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.控件属性设置ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.控件属性设置ToolStripMenuItem.Text = "控件属性设置";
             this.控件属性设置ToolStripMenuItem.Click += new System.EventHandler(this.控件属性设置ToolStripMenuItem_Click);
             // 
             // 控件事件处理ToolStripMenuItem
             // 
             this.控件事件处理ToolStripMenuItem.Name = "控件事件处理ToolStripMenuItem";
-            this.控件事件处理ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.控件事件处理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.控件事件处理ToolStripMenuItem.Text = "控件事件处理";
             this.控件事件处理ToolStripMenuItem.Click += new System.EventHandler(this.控件事件处理ToolStripMenuItem_Click);
             // 
@@ -202,7 +202,7 @@ namespace mcaoWindowsFormsApplicationForCSharp
             this.打开文件对话框ToolStripMenuItem,
             this.浏览文件对话框ToolStripMenuItem});
             this.对话框使用ToolStripMenuItem.Name = "对话框使用ToolStripMenuItem";
-            this.对话框使用ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.对话框使用ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.对话框使用ToolStripMenuItem.Text = "对话框使用";
             // 
             // 打开文件对话框ToolStripMenuItem
@@ -222,7 +222,7 @@ namespace mcaoWindowsFormsApplicationForCSharp
             // 各种控件演示ToolStripMenuItem
             // 
             this.各种控件演示ToolStripMenuItem.Name = "各种控件演示ToolStripMenuItem";
-            this.各种控件演示ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.各种控件演示ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.各种控件演示ToolStripMenuItem.Text = "各种控件演示";
             this.各种控件演示ToolStripMenuItem.Click += new System.EventHandler(this.各种控件演示ToolStripMenuItem_Click);
             // 
@@ -232,7 +232,7 @@ namespace mcaoWindowsFormsApplicationForCSharp
             this.分割窗口ToolStripMenuItem,
             this.用户自定义控件ToolStripMenuItem});
             this.控件使用ToolStripMenuItem.Name = "控件使用ToolStripMenuItem";
-            this.控件使用ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.控件使用ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.控件使用ToolStripMenuItem.Text = "控件使用";
             // 
             // 分割窗口ToolStripMenuItem
@@ -255,7 +255,7 @@ namespace mcaoWindowsFormsApplicationForCSharp
             this.打印文件ToolStripMenuItem,
             this.打印窗体ToolStripMenuItem});
             this.打印ToolStripMenuItem.Name = "打印ToolStripMenuItem";
-            this.打印ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.打印ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.打印ToolStripMenuItem.Text = "打印";
             // 
             // 打印文件ToolStripMenuItem
@@ -284,14 +284,14 @@ namespace mcaoWindowsFormsApplicationForCSharp
             // 教师ToolStripMenuItem1
             // 
             this.教师ToolStripMenuItem1.Name = "教师ToolStripMenuItem1";
-            this.教师ToolStripMenuItem1.Size = new System.Drawing.Size(136, 22);
+            this.教师ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.教师ToolStripMenuItem1.Text = "教师";
             this.教师ToolStripMenuItem1.Click += new System.EventHandler(this.教师ToolStripMenuItem1_Click);
             // 
             // 学生ToolStripMenuItem
             // 
             this.学生ToolStripMenuItem.Name = "学生ToolStripMenuItem";
-            this.学生ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.学生ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.学生ToolStripMenuItem.Text = "本课程教师";
             this.学生ToolStripMenuItem.Click += new System.EventHandler(this.学生ToolStripMenuItem_Click);
             // 
@@ -306,40 +306,39 @@ namespace mcaoWindowsFormsApplicationForCSharp
             this.无模对话框ToolStripMenuItem.Name = "无模对话框ToolStripMenuItem";
             this.无模对话框ToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
             this.无模对话框ToolStripMenuItem.Text = "无模对话框";
-            this.无模对话框ToolStripMenuItem.Click += new System.EventHandler(this.无模对话框ToolStripMenuItem_Click);
             // 
             // 教师ToolStripMenuItem
             // 
             this.教师ToolStripMenuItem.Name = "教师ToolStripMenuItem";
-            this.教师ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.教师ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.教师ToolStripMenuItem.Text = "教师";
             this.教师ToolStripMenuItem.Click += new System.EventHandler(this.教师ToolStripMenuItem_Click);
             // 
             // 辅导员ToolStripMenuItem
             // 
             this.辅导员ToolStripMenuItem.Name = "辅导员ToolStripMenuItem";
-            this.辅导员ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.辅导员ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.辅导员ToolStripMenuItem.Text = "辅导员";
             this.辅导员ToolStripMenuItem.Click += new System.EventHandler(this.辅导员ToolStripMenuItem_Click);
             // 
             // 教学秘书ToolStripMenuItem
             // 
             this.教学秘书ToolStripMenuItem.Name = "教学秘书ToolStripMenuItem";
-            this.教学秘书ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.教学秘书ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.教学秘书ToolStripMenuItem.Text = "教学秘书";
             this.教学秘书ToolStripMenuItem.Click += new System.EventHandler(this.教学秘书ToolStripMenuItem_Click);
             // 
             // 班导师ToolStripMenuItem
             // 
             this.班导师ToolStripMenuItem.Name = "班导师ToolStripMenuItem";
-            this.班导师ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.班导师ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.班导师ToolStripMenuItem.Text = "班导师";
             this.班导师ToolStripMenuItem.Click += new System.EventHandler(this.班导师ToolStripMenuItem_Click);
             // 
             // 本课程教师ToolStripMenuItem
             // 
             this.本课程教师ToolStripMenuItem.Name = "本课程教师ToolStripMenuItem";
-            this.本课程教师ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.本课程教师ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.本课程教师ToolStripMenuItem.Text = "本课程教师";
             this.本课程教师ToolStripMenuItem.Click += new System.EventHandler(this.本课程教师ToolStripMenuItem_Click);
             // 
@@ -356,21 +355,23 @@ namespace mcaoWindowsFormsApplicationForCSharp
             // 简单线程演示ToolStripMenuItem
             // 
             this.简单线程演示ToolStripMenuItem.Name = "简单线程演示ToolStripMenuItem";
-            this.简单线程演示ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.简单线程演示ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.简单线程演示ToolStripMenuItem.Text = "简单线程演示";
+            this.简单线程演示ToolStripMenuItem.Click += new System.EventHandler(this.简单线程演示ToolStripMenuItem_Click);
             // 
             // 线程画图ToolStripMenuItem
             // 
             this.线程画图ToolStripMenuItem.Name = "线程画图ToolStripMenuItem";
-            this.线程画图ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.线程画图ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.线程画图ToolStripMenuItem.Text = "线程画图";
             this.线程画图ToolStripMenuItem.Click += new System.EventHandler(this.线程画图ToolStripMenuItem_Click);
             // 
             // 线程应答ToolStripMenuItem
             // 
             this.线程应答ToolStripMenuItem.Name = "线程应答ToolStripMenuItem";
-            this.线程应答ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.线程应答ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.线程应答ToolStripMenuItem.Text = "线程应答";
+            this.线程应答ToolStripMenuItem.Click += new System.EventHandler(this.线程应答ToolStripMenuItem_Click);
             // 
             // 数据库ToolStripMenuItem
             // 

@@ -180,7 +180,7 @@ namespace mcaoWindowsFormsApplicationForCSharp
 
         private void 教师ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                      
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -195,27 +195,27 @@ namespace mcaoWindowsFormsApplicationForCSharp
 
         private void 辅导员ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 教学秘书ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 班导师ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }               
 
         private void 教师ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 本课程教师ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 定时图片ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -226,12 +226,12 @@ namespace mcaoWindowsFormsApplicationForCSharp
 
         private void 学生ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                   
+            MessageBox.Show("Do nothing!\nWaiting to be added!");      
         }
 
         private void 猜猜我在哪儿ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 自定义异常及其他语法ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -242,12 +242,12 @@ namespace mcaoWindowsFormsApplicationForCSharp
 
         private void 装箱测试ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 线程画图ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            MessageBox.Show("Do nothing!\nWaiting to be added!");    
         }
 
         private void 控件属性设置ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -401,10 +401,17 @@ namespace mcaoWindowsFormsApplicationForCSharp
             e.Graphics.DrawImage(memoryImage, 0, 0);
         }
 
-        private void 无模对话框ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 简单线程演示ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Do nothing!\nWaiting to be added!");  
         }
+
+        private void 线程应答ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Do nothing!\nWaiting to be added!");  
+        }
+
+
 
     }
 }
