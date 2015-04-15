@@ -1,4 +1,7 @@
-# for Visual Studio
+# for Visual Studio C#
 *.sdf
 *.opensdf
 Debug/
+Release/
+obj/
+bin/

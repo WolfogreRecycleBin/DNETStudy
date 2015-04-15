@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Projec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{DB6A407C-0A81-46EA-BF9A-0E099B9ADFEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcaoWindowsFormsApplicationForCSharp", "mcaoWindowsFormsApplicationForCSharp\mcaoWindowsFormsApplicationForCSharp.csproj", "{66848A51-67DD-429B-BBCB-CEFFBB572B04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DB6A407C-0A81-46EA-BF9A-0E099B9ADFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6A407C-0A81-46EA-BF9A-0E099B9ADFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6A407C-0A81-46EA-BF9A-0E099B9ADFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66848A51-67DD-429B-BBCB-CEFFBB572B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66848A51-67DD-429B-BBCB-CEFFBB572B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66848A51-67DD-429B-BBCB-CEFFBB572B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66848A51-67DD-429B-BBCB-CEFFBB572B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
