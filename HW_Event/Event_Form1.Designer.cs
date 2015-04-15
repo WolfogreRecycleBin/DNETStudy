@@ -50,6 +50,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(267, 50);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
