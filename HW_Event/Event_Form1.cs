@@ -34,7 +34,14 @@ namespace HW_Event
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            if (textBox1.Text == "wolf")
+                CauseEvent();
+        }
+        private void CauseEvent()
+        {
+            WolfComing mydealt = new WolfComing();
+            Check mychecke = new Check();
+            mychecke.MakeItOccur(mydealt);
         }
 
     }
