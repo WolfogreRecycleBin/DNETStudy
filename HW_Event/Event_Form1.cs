@@ -39,9 +39,8 @@ namespace HW_Event
         }
         private void CauseEvent()
         {
-            WolfComing mydealt = new WolfComing();
             Check mychecke = new Check();
-            mychecke.MakeItOccur(mydealt);
+            mychecke.MakeItOccur();
         }
 
     }

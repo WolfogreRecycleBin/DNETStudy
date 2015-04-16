@@ -7,10 +7,7 @@ using System.Windows.Forms;
 
 namespace HW_Event
 {
-    public class WolfComing : EventArgs
-    {  
-    }
-    public delegate void CheckBeast(object sender, WolfComing e);
+    public delegate void CheckBeast(object sender);
     class Check
     {
         public event CheckBeast FindWolf;
@@ -19,15 +16,15 @@ namespace HW_Event
             FindWolf = new CheckBeast(Alert);
             FindWolf += new CheckBeast(Run);
         }
-        public void MakeItOccur(WolfComing e)
+        public void MakeItOccur()
         {
-            FindWolf(this, e);
+            FindWolf(this);
         }
-        public void Alert(object sender, WolfComing e)
+        public void Alert(object sender)
         {
             MessageBox.Show("Wolf is comming!");
         }
-        public void Run(object sender, WolfComing e)
+        public void Run(object sender)
         {
             MessageBox.Show("Run!!!");
         }
