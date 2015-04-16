@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace HW_Event
 {
     public delegate void CheckBeast(object sender);
-    class Check
+    class Check : EventArgs
     {
         public event CheckBeast FindWolf;
         public Check()
