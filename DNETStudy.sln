@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcaoWindowsFormsApplicationForCSharp", "mcaoWindowsFormsApplicationForCSharp\mcaoWindowsFormsApplicationForCSharp.csproj", "{66848A51-67DD-429B-BBCB-CEFFBB572B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_Event", "HW_Event\HW_Event.csproj", "{B9B68874-6133-43A8-869E-28B14DB37199}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp_Event", "HW_Event\Exp_Event.csproj", "{B9B68874-6133-43A8-869E-28B14DB37199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
