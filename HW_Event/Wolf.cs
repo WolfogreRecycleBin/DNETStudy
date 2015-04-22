@@ -15,6 +15,7 @@ namespace HW_Event
         {
             FindWolf = new CheckBeast(Alert);
             FindWolf += new CheckBeast(Run);
+            FindWolf += new CheckBeast(跑);
         }
         public void MakeItOccur()
         {
@@ -27,6 +28,10 @@ namespace HW_Event
         public void Run(object sender)
         {
             MessageBox.Show("Run!!!");
+        }
+        public void 跑(object sender)
+        {
+            MessageBox.Show("你听不懂英文吗？跑!!!");
         }
     }
 }
