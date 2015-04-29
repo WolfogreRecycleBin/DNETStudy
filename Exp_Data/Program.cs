@@ -7,6 +7,10 @@ using System.Runtime.InteropServices;
 
 namespace Exp_Data
 {
+    class WolfInt
+    {
+        public int value;
+    };
     class Program
     {
         [DllImport("msvcrt.dll")]
@@ -31,19 +35,28 @@ namespace Exp_Data
                 j++;
                 Console.WriteLine("j++之后");
                 Console.WriteLine("i = " + i + "; j = " + j);
-                //TODO:与预期实验结果不同
             }
             {
-                Int32 i = new Int32();
+                Object i = new Object();
                 i = 10;
-                Int32 j = i;
+                Object j = i;
                 Console.WriteLine("引用j = i = 10;");
                 Console.WriteLine("i = " + i + "; j = " + j);
-                j++;
-                Console.WriteLine("j++之后");
+                j = 20;
+                Console.WriteLine("j = 20之后");
                 Console.WriteLine("i = " + i + "; j = " + j);
             }
+            {
 
+                WolfInt i = new WolfInt();
+                i.value = 10;
+                WolfInt j = i;
+                Console.WriteLine("自定义引用j = i = 10;");
+                Console.WriteLine("i = " + i.value + "; j = " + j.value);
+                j.value = 20;
+                Console.WriteLine("j = 20之后");
+                Console.WriteLine("i = " + i.value + "; j = " + j.value);
+            }
 
             Console.WriteLine("引用实验结束");
             system("pause");
