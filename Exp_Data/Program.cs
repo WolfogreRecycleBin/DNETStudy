@@ -20,6 +20,8 @@ namespace Exp_Data
             Console.WriteLine("测试C#的数据操作：");
             TestReference();
             TestBoxing();
+            TestUnsafeCode();
+            TestMax();
             Console.WriteLine("测试C#的数据操作结束");
             system("pause");
         }
@@ -62,6 +64,21 @@ namespace Exp_Data
             system("pause");
         }
 
+        static void TestUnsafeCode()
+        {
+            Console.WriteLine("开始不安全代码实验");
+            //不安全代码只会在使用 /unsafe 编译的情况出现
+            unsafe
+            {
+                int i = 10;
+                int *p = &i;
+                Console.WriteLine("输出p：" + (int)(p));
+                Console.WriteLine("输出*p：" + *p);
+            }
+            Console.WriteLine("不安全代码实验结束");
+            system("pause");
+        }
+
         static void TestBoxing()
         {
             Console.WriteLine("开始装箱、拆箱实验");
@@ -96,6 +113,51 @@ namespace Exp_Data
             system("pause");
         }
 
-
+        static void TestMax()
+        {
+            Console.WriteLine("开始Max()实验");
+            int i_a = 0;
+            int i_b = 10;
+            double d_a = 10.0;
+            double d_b = 3.13;
+            char c_a = 'A';
+            char c_b = 'z';
+            Console.WriteLine("int Max(" + i_a + "," + i_b + ") = " + Max(i_a, i_b));
+            Console.WriteLine("double Max(" + d_a + "," + d_b + ") = " + Max(d_a, d_b));
+            Console.WriteLine("char Max(" + c_a + "," + c_b + ") = " + Max(c_a, c_b));
+            Console.WriteLine("Max()实验结束");
+            system("pause");
+        }
+        static Object Max(Object a, Object b)
+        {
+            {
+                int i_a = 0, i_b;
+                if (i_a.GetType() == a.GetType())
+                {
+                    i_a = (int)a;
+                    i_b = (int)b;
+                    return i_a > i_b ? i_a : i_b;
+                }
+            }
+            {
+                double i_a = 0, i_b;
+                if (i_a.GetType() == a.GetType())
+                {
+                    i_a = (double)a;
+                    i_b = (double)b;
+                    return i_a > i_b ? i_a : i_b;
+                }
+            }
+            {
+                char i_a = '0', i_b;
+                if (i_a.GetType() == a.GetType())
+                {
+                    i_a = (char)a;
+                    i_b = (char)b;
+                    return i_a > i_b ? i_a : i_b;
+                }
+            }
+            return null;
+        }
     }
 }
