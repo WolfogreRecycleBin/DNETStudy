@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp_FormShow", "Exp_FormSho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp_Data", "Exp_Data\Exp_Data.csproj", "{23A11B74-4287-46D2-9211-8C6BBABF42CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gobang", "Gobang\Gobang.csproj", "{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,16 @@ Global
 		{23A11B74-4287-46D2-9211-8C6BBABF42CF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{23A11B74-4287-46D2-9211-8C6BBABF42CF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{23A11B74-4287-46D2-9211-8C6BBABF42CF}.Release|Win32.ActiveCfg = Release|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
