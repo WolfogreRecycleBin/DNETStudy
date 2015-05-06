@@ -17,7 +17,7 @@ namespace Gobang
 		int col = 14;
 		Point cursor = new Point(8,8);
 		int[,] matrix = new int [15,15];
-
+		Bitmap background = new Bitmap("木板2.jpg");
         public void Draw(Graphics g)
         {
 			int f = 1;
@@ -30,10 +30,17 @@ namespace Gobang
 			matrix[14, 14] = -1;
 			matrix[1, 1] = 1;
 			matrix[10, 3] = -1;
+			DrawBackground(g);
 			DrawBoard(g);
 			DrawPiece(g);
 			DrawCursor(g);
         }
+		public void DrawBackground(Graphics g)
+		{
+			Rectangle sourceRectangle = new Rectangle(0, 0, 1000, 1000);
+			Rectangle destRectangle1 = new Rectangle(0, 0, 1000, 1000);
+			g.DrawImage(background, destRectangle1, sourceRectangle, GraphicsUnit.Pixel);
+		}
 		public void DrawBoard(Graphics g)
 		{
 			float height = row * spacing;
@@ -51,6 +58,9 @@ namespace Gobang
 				g.DrawLine(pen, x, y + i * spacing, x + width, y + i * spacing);
 			}
 		}
+
+		
+
 		public void DrawPiece(Graphics g)
 		{
 			Color write = new Color();
@@ -84,31 +94,41 @@ namespace Gobang
 			g.DrawRectangle(pen,rect);
 		}
 
-		public bool MoveCursor(int d_x,int d_y)
+		public void UpdateCursor(Graphics g, int move_x, int move_y)
 		{
-			cursor.X += d_x;
-			cursor.Y += d_y;
+			int old_x = cursor.X;
+			int old_y = cursor.Y;
+			cursor.X += move_x;
+			cursor.Y += move_y;
+			bool if_moved = true;
 			if (cursor.X < 0)
 			{
 				cursor.X = 0;
-				return false;
+				if_moved = false;
 			}
 			if (cursor.X > row)
 			{
 				cursor.X = row;
-				return false;
+				if_moved = false;
 			}
 			if (cursor.Y < 0)
 			{
 				cursor.Y = 0;
-				return false;
+				if_moved = false;
 			}
 			if (cursor.Y > col)
 			{
 				cursor.Y = col;
-				return false;
+				if_moved = false;
 			}
-			return true;
+			if(if_moved)
+			{
+				Rectangle sourceRectangle = new Rectangle((int)(x + old_x * spacing - 30) - 5, (int)(y + old_y * spacing - 30) - 5, 70, 70);
+				Rectangle destRectangle1 = new Rectangle((int)(x + old_x * spacing - 30) - 5, (int)(y + old_y * spacing - 30) - 5, 70, 70);
+				g.DrawImage(background, destRectangle1, sourceRectangle, GraphicsUnit.Pixel);
+
+				
+			}
 		}
     }
 }

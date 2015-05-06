@@ -27,27 +27,22 @@ namespace Gobang
 		private void Form1_KeyDown(object sender, KeyEventArgs e)
 		{
 			//MessageBox.Show(e.KeyValue.ToString());
-			bool flag = false;
+			Graphics g = this.CreateGraphics();
 			if(e.KeyValue == 87)
 			{
-				flag = board.MoveCursor(0, -1);
+				board.UpdateCursor(g, 0, -1);
 			}
 			if (e.KeyValue == 83)
 			{
-				flag = board.MoveCursor(0, 1);
+				board.UpdateCursor(g, 0, 1);
 			}
 			if (e.KeyValue == 68)
 			{
-				flag = board.MoveCursor(1, 0);
+				board.UpdateCursor(g, 1, 0);
 			}
 			if (e.KeyValue == 65)
 			{
-				flag = board.MoveCursor(-1, 0);
-			}
-			if(flag)
-			{
-				Graphics g = this.CreateGraphics();
-				board.Draw(g);
+				board.UpdateCursor(g, -1, 0);
 			}
 		}
     }
