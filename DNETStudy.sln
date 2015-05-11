@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp_Data", "Exp_Data\Exp_Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gobang", "Gobang\Gobang.csproj", "{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程参考代码", "多线程参考代码\多线程参考代码.csproj", "{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,16 @@ Global
 		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{141ECAF1-926F-486F-8FB0-7C44F18E4CAB}.Release|Win32.ActiveCfg = Release|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{13F89DD1-4771-4CB9-BB87-8A3E97A357CE}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
